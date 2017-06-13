@@ -1,0 +1,17 @@
+#
+#
+
+image: 
+- Visual Studio 2015
+- Visual Studio 2017
+
+environment:
+  matrix:
+  - TARGET: desktop
+    COMPILER: msvc
+
+matrix:
+  fast_finish: true
+
+build_script:
+- build.bat
