@@ -11,7 +11,7 @@ environment:
     COMPILER: msvc
 
 matrix:
-  fast_finish: true
+  fast_finish: false
 
 build_script:
 - build.bat
